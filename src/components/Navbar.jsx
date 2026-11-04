@@ -4,13 +4,13 @@
 const Navbar = () => {
   return (
     <>
-    <div className='w-screen h-20 bg-red-50 flex  items-center justify-center'>
+    <div className='w-screen h-22  flex  items-center justify-center fixed bg-blue-600'>
        <div className='text-4xl font-bold flex gap-15'>
-        <div>Home</div>
-        <div>Skills</div>
-        <div>Projects</div>
-        <div>About</div>
-        <div >Contact</div>
+        <button>Home</button>
+        <button>Skills</button>
+        <button>Projects</button>
+        <button>About</button>
+        <button >Contact</button>
         </div> 
       
     </div>
