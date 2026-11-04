@@ -9,8 +9,9 @@ const Home = () => {
     <div className='pt-22 h-screen w-screen flex bg-blue-300'>
 
         <div className='w-3/5 h-full  '>
-        <div className='h-full w-full  p-2 gap-5 flex flex-col'>
-        <p className='h-5 w-52 overflow-hidden flex border-black rounded-2xl font-light bg-gray-600 px-0.5'><CodeXml/>Welcome to my Portfolio</p>
+        <div className='h-full w-full  p-3 gap-5 flex flex-col'>
+            
+        <div className='h-7 w-52  flex items-center justify-center border-blue-950 border-2 rounded-2xl font-normal bg-blue-200 text-blue-950'><CodeXml/>Welcome to my Portfolio</div> 
        <div className='text-8xl font-bold '>
         <h1>Hello,I'M <br></br> ISHRAT POSGE</h1>
         <h1 className='text-6xl'>CLOUD & DEVOPS TRAINEE</h1>
@@ -18,8 +19,10 @@ const Home = () => {
         </div>
         
         <button className='h-12 w-65 gap-0.5 text-2xl rounded-4xl border-blue-950 border-2 font-bold text-white bg-blue-600 flex items-center justify-center'><p>Exlore my Projects</p><span className='size-5'><ArrowRight/></span></button>
-              
+           <div className='w-full h-30 bg-red-100'></div>   
         </div>
+
+        
 
         
         </div>
