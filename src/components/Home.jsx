@@ -5,6 +5,8 @@ import Terraform from './svg/Terraform'
 import Git from './svg/Git'
 import GitLab from './svg/GitLab'
 import Jenkins from './svg/Jenkins'
+import Docker from './svg/Docker'
+import Grafana from './svg/Grafana'
 
 const Home = () => {
   return (
@@ -24,7 +26,7 @@ const Home = () => {
         
         <button className='h-12 w-65 gap-0.5 text-2xl rounded-4xl border-blue-950 border-2 font-bold text-white bg-blue-600 flex items-center justify-center'><p>Exlore my Projects</p><span className='size-5'><ArrowRight/></span></button>
           
-           <div className='w-full h-30 bg-blue-800 shadow-xl rounded-2xl border border-transparent'>
+           <div className='w-full h-40 bg-blue-800 shadow-xl rounded-2xl border border-transparent'>
             <div>
               <h3 className='py-0.2 px-3 font-bold text-xl text-blue-50'>Top Skills</h3>
                 <div className=' flex gap-6 p-2 '>
@@ -32,6 +34,10 @@ const Home = () => {
                  <div className='h-10 w-15' > <Git/></div>
                    <div className='h-10 w-15' ><GitLab/></div>
                    <div className='h-10 w-15' ><Jenkins/></div>
+                   <div className='h-10 w-15' ><Docker/></div>
+                    <div className='h-10 w-15' ><Grafana/></div>
+                   
+                   
                   </div>
                    
                    

@@ -1,7 +1,6 @@
 import React from 'react'
+import Skills from './components/Skills'
 import About from './components/About'
-import Home from './components/Home'
-
 
 
 
@@ -9,8 +8,9 @@ import Home from './components/Home'
 const App = () => {
   return (
 <div>
-      <Home/>  
-      <About/>
+  <About/>
+      <Skills/>  
+    
       
     </div>
   )
