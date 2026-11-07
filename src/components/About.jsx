@@ -1,5 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar'
+import LinkedIn from './svg/LinkedIn'
+import WhatsApp from './svg/WhatSapp'
+import GitHub from './svg/GitHub'
+import Gmail from './svg/Gmail'
 
 const About = () => {
   return (
@@ -36,7 +40,31 @@ const About = () => {
       </div>
                 
 
-          <div className='w-2/5 h-full bg-purple-400'>
+          <div className='w-2/5 h-full bg-yellow-50'>
+               <div className='w-full h-4/6 bg-purple-400 border-b-2 rounded-b-4xl'></div>
+                 <div className='w-full h-2/6 bg-yellow-50 p-5 grid grid-cols-2 gap-5'>
+                 <a
+    href="https://www.linkedin.com/in/ishrat-posge-995506285/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bma0M9yifRQWpVbZEFbzX9g%3D%3D"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit my LinkedIn profile"
+      className='flex gap-2 text-xl items-center justify-center '
+  >
+    <LinkedIn className="w-10 h-10 hover:scale-110 transition-transform" />ishrat-posge
+  </a>
+                 <a
+    href="https://github.com/ishDev-pixel"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit my GitHub profile"
+    className='flex gap-2 text-xl items-center justify-center'
+  >
+    <GitHub className="w-10 h-10 hover:scale-110 transition-transform" />ishDev-pixel
+  </a>
+                 <a className=' flex justify-center items-center gap-2'><WhatsApp  className="w-10 h-10 hover:scale-110 transition-transform" />6361200626</a>
+                 <a className=' flex justify-center items-center gap-2'><Gmail  className="w-10 h-10 hover:scale-110 transition-transform  " />posgeishrat@gmail.com</a>
+
+                 </div>
      
 
           </div>
