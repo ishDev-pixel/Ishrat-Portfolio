@@ -24,11 +24,13 @@ const About = () => {
               <p className='leading-11'> <span className='text-transparent'>$$$</span>For me, technology isn't just about writing code — it's about understanding systems, solving problems, and never stopping learning.</p>
         </div>
 
-             <div className='flex justify-between'>
-               <ul class="list-[circle] list-inside text-2xl text-blue-700 font-bold">Fluency in Languages
+             <div className='flex flex-col gap 5'>
+              <p className='font-bold text-2xl'>Fluency in Languages</p>
+               <ul class="list-[circle] list-inside text-2xl text-blue-700 font-bold grid grid-cols-2 gap-5">
                   <li>English</li>
                   <li>Hindi</li>
                   <li>Kannada</li>
+                  <li>Urdu</li>
                 </ul>
 
                 <ul>

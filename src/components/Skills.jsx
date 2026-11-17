@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Terraform from './svg/Terraform'
 import Git from './svg/Git'
 import GitLab from './svg/GitLab'
@@ -9,6 +9,12 @@ import Grafana from './svg/Grafana'
 import Navbar from './Navbar'
 import Linux from './svg/Linux'
 import GitHub from './svg/GitHub'
+import { ArrowRight } from 'lucide-react'
+import TailwindCSS from './svg/TailwindCSS'
+import HTML5 from './svg/HTML5'
+import CSS from './svg/CSS'
+import React from './svg/React'
+import JavaScript from './svg/Javascript'
 
 
 const Skills = () => {
@@ -34,9 +40,52 @@ const Skills = () => {
                    
                 </div>
             </div>         
-        </div>           
+        </div> 
+
+        <div className='h-full w-full flex gap-5 bg-amber-50'>
+
+           <div className='w-1/3 bg-amber-500 h-full'>
+
+           </div>
+
+
+           <div className='w-1/3 bg-green-500 h-full'>
+
+           </div>
+              
+          <div className='1/3 h-full grid grid-cols-2 bg-red-400 '>  
+            <div className=' p-2 flex flex-col gap-8 '> 
+            
+                  <h1 className='font-bold text-xl'>Frontend Skills</h1>
+              
+                <div className='text-2xl text-blue-300 font-bold grid grid-cols-2 gap-8 place-items-center'>
+                   
+                  
+                  <div className='size-10'><React/>React </div>
+                  <div className='h-10 w-10'><JavaScript/>JavaScirpt</div>
+                  
+                  <div className='h-10 w-10'><TailwindCSS/>TailwindCss</div>
+                  <div className='h-10 w-10'><HTML5/>HTML5</div>
+                  <div className='h-10 w-10'><CSS/>CSS</div>
+                 
+                
+               
+                
+                    <button className='w-45 h-7 border-2 border-blue-300 rounded-2xl flex items-center justify-center gap-0.5 '>Explore Projects<ArrowRight className='size-5'/></button> 
+              </div>
+            </div>
+            
+
+             
+             
+             
+            
+          </div> 
+
+        </div>               
       
     </div>
+    
     </>
   )
 }
