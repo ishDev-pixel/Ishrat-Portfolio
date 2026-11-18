@@ -21,8 +21,9 @@ const Skills = () => {
   return (
     <>
     <Navbar/>
-    <div className='w-screen h-screen pt-22 flex flex-col items-center bg-blue-400'>
-         <div className='w-200 h-50 bg-blue-200 border-2 border-blue-200 shadow-xl rounded-2xl  '>
+    <div className='w-full h-full pt-22 flex flex-col items-center bg-blue-300'>
+        <div className='w-200 h-50 p-4'>
+         <div className='w-200 h-40 bg-blue-200 border-2 border-blue-200 shadow-xl rounded-2xl  '>
             <div>
               <h3 className='py-0.2 px-3 font-bold text-xl '>Top Skills</h3>
                 <div className=' flex gap-6 p-2 '>
@@ -41,39 +42,72 @@ const Skills = () => {
                 </div>
             </div>         
         </div> 
+      </div>  
 
-        <div className='h-full w-full flex gap-5 bg-amber-50'>
+        <div className='h-full  flex  gap-5  '>
+              
+           <div className='w-1/4  h-full flex flex-col gap-4  font-bold text-xl p-4 border-6 border-blue-50 rounded-2xl shadow-2xl'>
+              <h1>Cloud & Infrastructure</h1>
+           
+           <diV className='grid grid-cols-2 gap-15'>
+               <div className='size-10'><AmazonWebServices/>AWS</div>
+               <div className='size-10'><Terraform/>Terraform</div>
+              <div className='size-10'>EC2</div>
+              <div>AWS Cli</div>
+              <div>S3</div>
+              <div>EBS</div>
+              <div>VPC</div>
+              <div>IAM</div>
 
-           <div className='w-1/3 bg-amber-500 h-full'>
+           </diV>
+             
+                      <div className='w-full px-10 py-5'>
+                    <button className='w-45 h-7 border-2 border-blue-300 rounded-2xl flex items-center justify-center gap-0.5 '>Explore Projects<ArrowRight className='size-5'/></button> 
+                       </div>
+
 
            </div>
 
 
-           <div className='w-1/3 bg-green-500 h-full'>
+           <div className='w-2/4 h-full flex flex-col gap-4  font-bold text-xl p-2 border-6 border-blue-50 rounded-2xl shadow-2xl '>
+            <h1 className='text-center'>DevOps & Automation</h1>
+            <div className='grid grid-cols-2 gap-20 place-items-center'>
+                  <div className='h-10 w-15' ><Docker/>Docker</div>
+                  <div className='h-10 w-15' ><Jenkins/>Jenkins</div>
+                  <div className='h-10 w-15' > <Git/>Git</div>
+                  <div className='h-10 w-15'><GitHub/>GitHub</div>
+                  <div className='h-10 w-15'><Terraform/>Terraform</div>
+                  <div>CI/CD</div>
+            </div>
+               <div className='w-full px-70 py-20'>
+                    <button className='w-45 h-7 border-2 border-blue-300 rounded-2xl flex items-center justify-center gap-0.5 '>Explore Projects<ArrowRight className='size-5'/></button> 
+                       </div>
+                
 
            </div>
               
-          <div className='1/3 h-full grid grid-cols-2 bg-red-400 '>  
-            <div className=' p-2 flex flex-col gap-8 '> 
+          <div className='w-1/4  h-full flex flex-col gap-4  font-bold text-xl p-4 border-6 border-blue-50 rounded-2xl shadow-2xl '>  
             
-                  <h1 className='font-bold text-xl'>Frontend Skills</h1>
+            
+                  <h1 className='font-bold text-xl text-center'>Frontend Skills</h1>
               
-                <div className='text-2xl text-blue-300 font-bold grid grid-cols-2 gap-8 place-items-center'>
+                <div className='grid grid-cols-2 gap-15'>
                    
                   
                   <div className='size-10'><React/>React </div>
                   <div className='h-10 w-10'><JavaScript/>JavaScirpt</div>
+                  <div className='size-10'><GitHub/>GitHub</div>
                   
                   <div className='h-10 w-10'><TailwindCSS/>TailwindCss</div>
                   <div className='h-10 w-10'><HTML5/>HTML5</div>
                   <div className='h-10 w-10'><CSS/>CSS</div>
-                 
+                   </div>
                 
                
-                
+                      <div className='w-full px-15 py-10'>
                     <button className='w-45 h-7 border-2 border-blue-300 rounded-2xl flex items-center justify-center gap-0.5 '>Explore Projects<ArrowRight className='size-5'/></button> 
-              </div>
-            </div>
+                       </div>
+            
             
 
              
