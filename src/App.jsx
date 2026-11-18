@@ -1,5 +1,5 @@
 import React from 'react'
-import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 
 
@@ -9,7 +9,7 @@ const App = () => {
   return (
 <div>
 
-      <Skills/>  
+      <Contact/>  
     
       
     </div>
