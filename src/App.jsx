@@ -1,5 +1,6 @@
 import React from 'react'
 import Skills from './components/Skills'
+import About from './components/About'
 
 
 
@@ -8,6 +9,7 @@ import Skills from './components/Skills'
 const App = () => {
   return (
 <div>
+  <About/>
       <Skills/>  
     
       
