@@ -12,6 +12,7 @@ import Nginx from './svg/Nginx'
 import LinkedIn from './svg/LinkedIn'
 import WhatsApp from './svg/WhatSapp'
 import Gmail from './svg/Gmail'
+import Kubernetes from './svg/Kubernetes'
 
 
 
@@ -64,7 +65,7 @@ const Contact = () => {
                <h1 className='text-center text-sky-50 text-6xl'>Ishrat Posge</h1>
             </div>
          </diV>
-         <div className='bg-blue-200 w-full h-30 rounded-b-4xl flex py-3 p-13 gap-27'>
+         <div className='bg-blue-200 w-full h-30 rounded-b-4xl flex py-3 p-13 gap-25'>
             <motion.div className='size-17 py-5 text-center' whileHover={{scale:1.1}} ><AmazonWebServices/>AWS</motion.div>
             <motion.div className='size-12 text-center'whileHover={{scale:1.1}}><Terraform/>Terraform</motion.div>
             <motion.div className='h-10 w-15 text-center' whileHover={{scale:1.1}}><Docker/>Docker</motion.div>
@@ -73,6 +74,7 @@ const Contact = () => {
             <motion.div className='size-17 text-center' whileHover={{scale:1.1}}><React/>React </motion.div>
             <motion.div className='h-10 w-15 text-center' whileHover={{scale:1.1}}><GitHub/>GitHub</motion.div>
             <motion.div className='size-17 py-5 text-center' whileHover={{scale:1.1}}><TailwindCSS/>TailwindCss</motion.div>
+            <motion.div className='size-16 text-center' whileHover={{scale:1.1}}><Kubernetes/>Kubernetes</motion.div>
             <motion.div className='size-16 text-center' whileHover={{scale:1.1}}><Nginx/>Nginx</motion.div>
           </div>
 

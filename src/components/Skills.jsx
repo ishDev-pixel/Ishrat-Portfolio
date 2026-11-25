@@ -15,6 +15,7 @@ import HTML5 from './svg/HTML5'
 import CSS from './svg/CSS'
 import React from './svg/React'
 import JavaScript from './svg/Javascript'
+import Kubernetes from "./svg/Kubernetes";
 
 
 
@@ -77,12 +78,12 @@ const Skills = () => {
            <div className='w-2/4 h-full flex flex-col gap-4  font-bold text-xl p-2 border-6 border-blue-50 rounded-2xl shadow-2xl '>
             <h1 className='text-center'>DevOps & Automation</h1>
             <div className='grid grid-cols-2 gap-20 place-items-center'>
-                  <div className='h-10 w-15' ><Docker/>Docker</div>
+                  <div className='h-20 w-25' ><Docker/>Docker</div>
                   <div className='h-10 w-15' ><Jenkins/>Jenkins</div>
                   <div className='h-10 w-15' > <Git/>Git</div>
                   <div className='h-10 w-15'><GitHub/>GitHub</div>
                   <div className='h-10 w-15'><Terraform/>Terraform</div>
-                  <div>CI/CD</div>
+                  <div className='h-17 w-18 '><Kubernetes/></div>
             </div>
                <div className='w-full px-70 py-20'>
                     <motion.button className='w-55 h-10 border-2 border-blue-200 shadow-2xl rounded-2xl flex items-center justify-center gap-0.5 '
